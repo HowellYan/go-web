@@ -11,5 +11,10 @@ type MainController struct {
 
 func (this *MainController) Get() {
 	logs.Info("1")
-	this.Ctx.WriteString("hello")
+	this.Ctx.WriteString("hello get")
+}
+
+func (this *MainController) Post() {
+	logs.Info("1")
+	this.Ctx.WriteString("hello post")
 }
