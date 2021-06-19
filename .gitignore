@@ -1,4 +1,4 @@
 ### IntelliJ IDEA ###
 .idea
 *.sum
-.lib
+lib
